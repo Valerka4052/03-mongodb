@@ -4,7 +4,7 @@ const cors = require('cors');
 const contactsRouter = require('./routes/api/contacts');
 
 
-
+require('dotenv').config()
 
 
 app.use(cors());
